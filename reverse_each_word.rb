@@ -1,2 +1,4 @@
 def reverse_each_word(x)
-  x.strip
+  x.strip(" ")
+  x
+end
