@@ -1,4 +1,3 @@
 def reverse_each_word(x)
-  x.slice!(" ")
-  x
+  ar=x.split(" ")
 end
