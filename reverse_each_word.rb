@@ -5,5 +5,4 @@ def reverse_each_word(x)
   ar.each do |y| 
     arr.push(y)
   end
-  arr
 end
