@@ -2,7 +2,7 @@ def reverse_each_word(x)
   arr = []
   ar=x.split(" ")
   ar.each do {|y| y.reverse}
-    arr << y
+    arr.push(y)
   end
-  arr.join(" ")
+  arr
 end
