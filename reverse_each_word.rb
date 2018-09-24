@@ -3,5 +3,5 @@ def reverse_each_word(x)
   ar=x.split(" ")
   ar.collect! {|y| y.reverse}
   arr.push(y)
-  arr
+  puts arr
 end
